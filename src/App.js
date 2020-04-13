@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from "axios";
 import Speech from "react-speech";
+import ReactTypingEffect from "react-typing-effect";
 import soundfile from "./audio.mp3";
 import images from "./helper";
 
@@ -49,12 +50,14 @@ const App = () => {
                 background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImg})`,
             }}
         >
-            {doPlay && <audio src={soundfile} autoPlay />}
+            {doPlay && <audio src={soundfile} loop autoPlay />}
             <div className="card">
-                <h1 className="header">{advice}</h1>
+                <h1 className="header">
+                    <ReactTypingEffect speed={70} text={advice} />
+                </h1>
                 <Speech
                     textAsButton={true}
-                    displayText="Narrate"
+                    displayText="Voice Over"
                     text={advice}
                 />
                 <button onClick={playMusic}>
