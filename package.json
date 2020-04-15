@@ -13,7 +13,9 @@
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
         "react-speech": "^1.0.2",
-        "react-typing-effect": "^2.0.3"
+        "react-speech-kit": "^2.0.5",
+        "react-typing-effect": "^2.0.3",
+        "yarn": "^1.22.4"
     },
     "scripts": {
         "start": "react-scripts start",
