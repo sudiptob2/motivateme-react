@@ -65,6 +65,7 @@ const App = () => {
 
     useEffect(() => {
         console.log("component did mount");
+        setRandomBackGround();
         setInterval(setRandomBackGround, 30000);
         setInterval(fetchAdvice, 6000 + 2 * advice.length);
     }, []);
