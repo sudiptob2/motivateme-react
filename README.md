@@ -1,11 +1,12 @@
 # Motivate me
 
-An webapp that helps you to relax with encouraging motivation, relaxing music and auto voice-over. Built with **React**, **Adviceslip** and **Pexels** API.
+A webapp that helps you to relax with encouraging motivation, relaxing music and auto voice-over. Built with **React**, **Adviceslip** and **Pexels** API.
 
 ## Description
 
 This app generate random motivation from adviceslip API and gets you motivated with is relaxing and encouraging images from pelxels API. The relaxing music and auto voice-over helps you to relax while closing your eyes.
-This simple project can help the beginners in React to practice different features of React as well as make something which is viable. This project will also get you started with API calls, react hooks and some other intermediate features of react.
+
+This simple project can help the beginners in React to practice different features of React as well as make something which is viable. This project will also get you started with API calls, react hooks and some other intermediate features of react. So why started and use your creativity to modify the project on this weekend!
 
 ![Motivate Me](demo/motivate-me-demo.gif)
 
