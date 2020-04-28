@@ -75,6 +75,7 @@ const App = () => {
             className="app"
             style={{
                 background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${backgroundImg})`,
+                transition: "4s",
             }}
         >
             {doPlay && <audio src={soundfile} loop autoPlay />}
