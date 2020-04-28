@@ -5,7 +5,6 @@
     Also smaller object is easy to debug
 */
 import ImageData from "./ImageData";
-import imageData from "./ImageData";
 
 let images = [];
 let i;
