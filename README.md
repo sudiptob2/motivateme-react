@@ -7,6 +7,8 @@ An webapp that helps you to relax with encouraging motivation, relaxing music an
 This app generate random motivation from adviceslip API and gets you motivated with is relaxing and encouraging images from pelxels API. The relaxing music and auto voice-over helps you to relax while closing your eyes.
 This simple project can help the beginners in React to practice different features of React as well as make something which is viable. This project will also get you started with API calls, react hooks and some other intermediate features of react.
 
+![Motivate Me](demo/motivate-me-demo.gif)
+
 ## Installation
 
 -   Clone the repo in your terminal by clicking the _green_ clone or download button at the top right and copyin the url
